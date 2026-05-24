@@ -1,11 +1,11 @@
 export const companyInfo = {
   name: "Goldenline Remodeling",
-  tagline: "Houston's Premium Home Remodeling",
+  tagline: "Bespoke Luxury Home Remodeling",
   phone: "855-773-7364",
   email: "info@goldenlineremodeling.com",
-  address: "Houston, TX (Serving Premium Houston Estates)",
-  license: "CA CSLB #1065685 & Local TX Fully Insured",
-  shortDesc: "Goldenline Remodeling is a premier general contractor specializing in high-end exterior renovations, custom home builds, and exquisite interior remodeling. We serve demanding residential and commercial clients across Houston with bespoke architectural design, structural engineering, and flawless execution.",
+  address: "West Hollywood, CA (Serving Los Angeles & Surrounding Areas)",
+  license: "CA CSLB #1065685",
+  shortDesc: "Goldenline Remodeling is a premier general contractor specializing in high-end exterior renovations, custom home builds, and exquisite interior remodeling. Located in West Hollywood, CA, we serve residential and commercial clients across Southern California with bespoke architectural design, structural engineering, and flawless execution.",
   usp: [
     {
       title: "Flawless Execution",
@@ -31,7 +31,7 @@ export const companyInfo = {
     },
     {
       title: "Licensed & Insured Experts",
-      desc: "Operating under strict state standards (License CSLB #1065685 and local Texas compliance guarantees) to deliver peace of mind."
+      desc: "Operating under strict state standards (License CSLB #1065685 and local California compliance guarantees) to deliver peace of mind."
     }
   ],
   steps: [
@@ -51,6 +51,14 @@ export const companyInfo = {
       desc: "Our project managers direct the daily build, from structural engineering updates to the final detailed clean-up."
     }
   ]
+};
+
+export const socialLinks = {
+  google: "https://www.google.com/maps/place/Goldenline+Remodeling/@34.0885319,-118.3825776,17z/data=!3m1!4b1!4m8!1m2!2m1!1sgoldenline+remodeling+west+hollywood!3m4!1s0x80c2bf3d6d894e49:0xc716a7d2243882!8m2!3d34.0885275!4d-118.3803889",
+  yelp: "https://www.yelp.com/biz/goldenline-remodeling-west-hollywood",
+  angieslist: "https://member.angieslist.com/member/store/25287809/about?categoryId=112",
+  instagram: "https://www.instagram.com/goldenline_remodeling/?hl=en",
+  buildzoom: "https://www.buildzoom.com/contractor/goldenline-remodeling"
 };
 
 export const services = [
@@ -157,21 +165,25 @@ export const galleryProjects = [
 
 export const reviews = [
   {
-    name: "Genevieve R.",
-    location: "Houston Heights, TX",
+    name: "Ramida A.",
+    location: "West Hollywood, CA",
     rating: 5,
-    text: "Goldenline Remodeling did an exceptional job on our kitchen remodel. The marble integration was flawless, and the craftsmanship of the custom cabinets is top-notch. Highly recommended general contractors!"
+    date: "2024-10-01",
+    text: "I had my kitchen remodelled by Goldenline, Guy and his team did excellent job, everything was done exactly as requested. They were on time and clean."
   },
   {
-    name: "Michael S.",
-    location: "Memorial, Houston",
+    name: "David R.",
+    location: "Los Angeles, CA",
     rating: 5,
-    text: "They managed our custom home project from architectural drawings to final keys. The project management team was professional, kept us in loop, and the final results exceeded expectations. Exceptional standard."
+    date: "2024-09-26",
+    text: "Goldenline Modeling recently completed an extensive remodeling project for me, and I couldn't be more pleased with the professionalism and high-end results."
   },
   {
-    name: "Sarah L.",
-    location: "River Oaks, Houston",
+    name: "Vlad D.",
+    location: "Beverly Hills, CA",
     rating: 5,
-    text: "We hired them to remodel our master bathroom. Their tiling expertise and bathroom layout design ideas were excellent. They turned it into a luxury personal spa, right on budget."
+    date: "2024-08-06",
+    text: "I recently had my Kitchen remodeled by Golden Line Remodeling and the experience was flawless. Guy's attention to detail was exceptional."
   }
 ];
+

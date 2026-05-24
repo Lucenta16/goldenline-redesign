@@ -25,7 +25,7 @@ export default function Hero({ onNavigate }) {
             </span>
             <span className="flex items-center gap-1.5 px-3.5 py-1.5 bg-white/5 border border-white/10 text-neutral-300 text-xs font-bold uppercase tracking-wider backdrop-blur-md">
               <MapPin className="w-3.5 h-3.5 text-gold-500" />
-              Houston, TX
+              West Hollywood, CA
             </span>
           </motion.div>
 
@@ -36,7 +36,7 @@ export default function Hero({ onNavigate }) {
             transition={{ duration: 0.8, delay: 0.15 }}
             className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.15] font-serif"
           >
-            Houston’s Premium <br />
+            Premium Luxury <br />
             <span className="gold-gradient-text text-glow-light font-bold">Home Remodeling</span>
           </motion.h1>
 

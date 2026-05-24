@@ -15,7 +15,7 @@ const projects = [
   {
     id: "bathroom",
     title: "Master Spa Retreat",
-    location: "Houston Heights Residence",
+    location: "West Hollywood Residence",
     beforeImg: "https://goldenlineremodeling.com/wp-content/uploads/elementor/thumbs/about-us-750-p2vgs9g0f2xmsutapwgyrpwj74d3ji08nn21qtyxm4.jpg", // Raw framing stage representation
     beforeLabel: "Concept Space Planning",
     afterImg: "https://goldenlineremodeling.com/wp-content/uploads/2020/05/Shot15_With_Hat_Til_Tile_All.jpg",

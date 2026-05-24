@@ -229,7 +229,7 @@ export default function App() {
                 </div>
               </div>
               <p className="text-neutral-600 text-sm font-light leading-relaxed mb-6">
-                Redesigning estates across Houston and Los Angeles into premium architectural masterpieces. CSLB License #1065685.
+                Redesigning estates across West Hollywood, Los Angeles, and surrounding Southern California areas into premium architectural masterpieces. CSLB License #1065685.
               </p>
               <div className="flex gap-4">
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="p-2.5 bg-white border border-black/5 hover:border-gold-500/30 text-neutral-500 hover:text-gold-600 transition-all shadow-sm" aria-label="Instagram">
@@ -285,7 +285,7 @@ export default function App() {
                   </a>
                 </li>
                 <li>
-                  <span className="text-neutral-500 block text-[10px] uppercase tracking-wider">Houston Operations:</span>
+                  <span className="text-neutral-500 block text-[10px] uppercase tracking-wider">Main Office:</span>
                   <span className="text-luxury-charcoal">{companyInfo.address}</span>
                 </li>
               </ul>
@@ -303,7 +303,7 @@ export default function App() {
                   </div>
                 </div>
                 <p className="text-[10px] text-neutral-500 leading-normal">
-                  All structural, remodeling, and carpentry work conforms to rigorous state specifications and local Houston municipal safety guidelines.
+                  All structural, remodeling, and carpentry work conforms to rigorous state specifications and local California building code safety guidelines.
                 </p>
               </div>
             </div>
