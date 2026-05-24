@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { companyInfo } from './data/content';
+import logoG from './assets/logo-g.png';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import BeforeAfter from './components/BeforeAfter';
@@ -75,11 +76,16 @@ export default function App() {
             onClick={(e) => { e.preventDefault(); handleNavigate('hero'); }}
             className="flex items-center gap-3 group"
           >
+            <img 
+              src={logoG} 
+              alt="Goldenline Remodeling" 
+              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+            />
             <div className="flex flex-col">
-              <span className="font-serif text-xl md:text-2xl font-bold tracking-widest text-luxury-charcoal group-hover:text-gold-600 transition-colors">
+              <span className="font-serif text-lg md:text-xl font-bold tracking-widest text-luxury-charcoal group-hover:text-gold-600 transition-colors">
                 GOLDENLINE
               </span>
-              <span className="text-[9px] uppercase tracking-[0.3em] text-gold-600 font-semibold -mt-1 block">
+              <span className="text-[8px] uppercase tracking-[0.3em] text-gold-600 font-semibold -mt-1 block">
                 REMODELING
               </span>
             </div>
@@ -207,12 +213,21 @@ export default function App() {
             
             {/* Col 1: About Brand */}
             <div>
-              <span className="font-serif text-lg font-bold tracking-widest text-luxury-charcoal block mb-2">
-                GOLDENLINE
-              </span>
-              <span className="text-[9px] uppercase tracking-[0.3em] text-gold-600 font-semibold mb-6 block">
-                REMODELING
-              </span>
+              <div className="flex items-center gap-3 mb-4">
+                <img 
+                  src={logoG} 
+                  alt="Goldenline Remodeling" 
+                  className="h-10 w-auto object-contain" 
+                />
+                <div className="flex flex-col">
+                  <span className="font-serif text-base font-bold tracking-widest text-luxury-charcoal">
+                    GOLDENLINE
+                  </span>
+                  <span className="text-[8px] uppercase tracking-[0.3em] text-gold-600 font-semibold -mt-0.5 block">
+                    REMODELING
+                  </span>
+                </div>
+              </div>
               <p className="text-neutral-600 text-sm font-light leading-relaxed mb-6">
                 Redesigning estates across Houston and Los Angeles into premium architectural masterpieces. CSLB License #1065685.
               </p>
